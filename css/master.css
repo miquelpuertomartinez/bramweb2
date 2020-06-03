@@ -1,8 +1,6 @@
 
 body {
   width:auto;
-  margin-left: 13em;
-  margin-right: 13em;
   height: 100%;
   text-align: center;
   background:url(../images/home.png) no-repeat center center fixed;
@@ -12,7 +10,31 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+/*Media*/
+.SocialButtons {
+  top: 0;
+} 
+
+.media {
+  text-align: right;
+}
+
+.NavMedia { 
+  padding: .5em;
+}
+
+.ImgMedia {
+  width: 20px; 
+  height: 20px;
+}
+
 /*Header*/
+.structure{
+  margin-left: 13em;
+  margin-right: 13em;
+}
+
 header {
   position: absolute;
   margin: 1em;
@@ -43,8 +65,8 @@ nav a { /*modifica les lletresn i l'estructura menu*/
   padding: .5em;
   color: #FFF;
 }
-/* Efecte enfosquir lletra quan pases el ratoli*/
-nav a:hover,
+
+nav a:hover, /* Efecte enfosquir lletra quan pases el ratoli*/
 nav a:focus {
   color: #DDD;
 }
@@ -53,8 +75,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-
 
 @media (min-width: 60rem) { /* aixo adapta lo de dins quan canvia la pantalla*/
   .title{
@@ -99,3 +119,26 @@ img {
   max-width: 5%;
   min-width: 100px;
 }
+/* Home section*/
+
+/*Footer*/
+.buttonContact {
+  border-radius: 8px;
+  cursor: pointer;
+  weight:50px;
+  height:50px;
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /*background-color: grey;*/
+  color: black;
+  text-align: center;
+}
+/*Footer*/
